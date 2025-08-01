@@ -11,6 +11,7 @@ body {
   background: #a3d8ff;
   background: -webkit-linear-gradient(to top, #ccf4ff, #a3d8ff);
   background: linear-gradient(to top, #ccf4ff, #a3d8ff);
+  transition: background 0.5s ease;
 }
 .card-body {
   min-width: 300px;
@@ -18,10 +19,11 @@ body {
   background: #4facfe;
   background: -webkit-linear-gradient(to top, #00f2fe, #4facfe);
   background: linear-gradient(to top, #00f2fe, #4facfe);
+  transition: background 0.5s ease;
 }
 
 /* 
-night CSS:
+night card CSS:
   background: #bdc3c7;
   background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);
   background: linear-gradient(to top, #2c3e50, #bdc3c7);
