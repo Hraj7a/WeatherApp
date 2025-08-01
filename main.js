@@ -47,8 +47,6 @@ async function fetchData() {
       output.textContent = `${description.description} ${Math.round(
         temprature.temp
       )}°C`;
-
-      console.log("🌞 It's daytime at this location.");
     } else {
       //Night Time
       section.style.background = "linear-gradient(to top, #aabac5, #e0e4e7)";
@@ -62,7 +60,6 @@ async function fetchData() {
       output.textContent = `${description.description} ${Math.round(
         temprature.temp
       )}°C`;
-      console.log("🌙 It's nighttime at this location.");
     }
   });
 }
