@@ -21,33 +21,3 @@ body {
   background: linear-gradient(to top, #00f2fe, #4facfe);
   transition: background 0.5s ease;
 }
-
-/* 
-night card CSS:
-  background: #bdc3c7;
-  background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);
-  background: linear-gradient(to top, #2c3e50, #bdc3c7);
-
-  night CSS section:
-  background: #e0e4e7;
-  background: -webkit-linear-gradient(to top, #aabac5, #e0e4e7);
-  background: linear-gradient(to top, #aabac5, #e0e4e7);
-----------------------------------------------------------------------------------------
-
-mornig CSS section:
-  background: #ffd5c2;
-  background: -webkit-linear-gradient(to top, #ffc1b6, #ffd5c2);
-  background: linear-gradient(to top, #ffc1b6, #ffd5c2);
-
-morning CSS card:
-  background: #ff9966;
-  background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
-  background: linear-gradient(to top, #ff5e62, #ff9966);
-
-----------------------------------------------------------------------------------------
-  default:
-  background: #4facfe;
-  background: -webkit-linear-gradient(to right, #00f2fe, #4facfe);
-  background: linear-gradient(to top, #00f2fe, #4facfe);
-
-*/

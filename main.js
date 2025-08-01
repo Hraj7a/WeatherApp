@@ -39,6 +39,11 @@ async function fetchData() {
       //Day Time
       section.style.background = "linear-gradient(to top, #ffc1b6, #ffd5c2)";
       cardBody.style.background = "linear-gradient(to top, #ff5e62, #ff9966)";
+
+      btn.style.backgroundColor = "#ff5722";
+      btn.style.color = "#ffffff";
+      btn.onmouseover = () => (button.style.backgroundColor = "#e64a19");
+      btn.onmouseout = () => (button.style.backgroundColor = "#ff5722");
       output.textContent = `${description.description} ${Math.round(
         temprature.temp
       )}°C`;
@@ -48,6 +53,11 @@ async function fetchData() {
       //Night Time
       section.style.background = "linear-gradient(to top, #aabac5, #e0e4e7)";
       cardBody.style.background = "linear-gradient(to top, #2c3e50, #bdc3c7)";
+
+      btn.style.backgroundColor = "#42a5f5";
+      btn.style.color = "#ffffff";
+      btn.onmouseover = () => (button.style.backgroundColor = "#1e88e5");
+      btn.onmouseout = () => (button.style.backgroundColor = "#42a5f5");
 
       output.textContent = `${description.description} ${Math.round(
         temprature.temp
