@@ -14,7 +14,7 @@ async function fetchData() {
   btn.addEventListener("click", async () => {
     let cityName = city.value.toLowerCase().trim();
 
-    let geocodingUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=1&appid=${APIKey}`;
+    let geocodingUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=1&appid=${APIKey}`;
 
     const geocodingRes = await fetch(geocodingUrl);
     const geocodingData = await geocodingRes.json();
