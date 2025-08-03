@@ -27,8 +27,13 @@
           class="card-body gap-1 rounded-3 text-center d-flex flex-column justify-content-center align-items-center"
         >
           <h5 class="card-title">Enter a city</h5>
-          <input id="city" type="text" class="rounded-2 border-0 city-input" />
-          <p class="card-text pt-2 output">Sunny, 38°C</p>
+          <div class="autocomplete-wrapper" style="position: relative">
+            <input id="city" type="text" placeholder="Enter a city..." />
+            <ul id="suggestions"></ul>
+          </div>
+
+          <h3 class="weather-icon pt-2"></h3>
+          <p class="card-text pt-2 output"></p>
           <a href="#" class="search-btn btn btn-primary border-0"
             >See Forecast</a
           >

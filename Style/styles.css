@@ -21,3 +21,30 @@ body {
   background: linear-gradient(to top, #00f2fe, #4facfe);
   transition: background 0.5s ease;
 }
+#suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-top: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+#suggestions li {
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#suggestions li:hover {
+  background-color: #f1f1f1;
+}
